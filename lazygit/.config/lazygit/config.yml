@@ -1,8 +1,4 @@
 gui:
-  authorColors:
-    "*": magenta
-  branchColors: {}
-  branchColorPatterns: {}
   customIcons:
     filenames: {}
     extensions: {}
@@ -23,8 +19,8 @@ gui:
   expandedSidePanelWeight: 5
   mainPanelSplitMode: flexible
   enlargedSideViewLocation: left
-  wrapLinesInStagingView: true
-  useHunkModeInStagingView: true
+  wrapLinesInDiffView: true
+  useHunkModeInDiffView: true
   language: auto
   timeFormat: 02 Jan 06
   shortTimeFormat: 3:04PM
@@ -34,6 +30,9 @@ gui:
     inactiveBorderColor:
       - black
       - bold
+    authorColors:
+      "*": magenta
+    branchColorPatterns: {}
   commitLength:
     show: true
   showListFooter: true
